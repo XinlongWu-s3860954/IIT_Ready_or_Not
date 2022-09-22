@@ -545,6 +545,21 @@ strong {
   padding-top: 40px;
 }
 
+.Xinlong-text,
+.Abdulmalik-text,
+.Adrian-text,
+.Mohamed-text {
+  display: none;
+  margin-top: 8em;
+}
+
+.Xinlong:hover ~ #desc .Xinlong-text,
+.Abdulmalik:hover ~ #desc .Abdulmalik-text,
+.Adrian:hover ~ #desc .Adrian-text,
+.Mohamed:hover ~ #desc .Mohamed-text {
+  display: block;
+}
+
 /*---------------------------------------
   SPEAKERS              
 -----------------------------------------*/
@@ -579,6 +594,7 @@ strong {
   right: 0;
   left: 0;
   margin: 20px;
+  margin-left: 45px;
   padding: 10px 15px;
   width: 25em;
 }
@@ -653,6 +669,10 @@ strong {
 /*---------------------------------------
   SCHEDULE              
 -----------------------------------------*/
+.schedule{
+  background: var(--section-bg-color);
+}
+
 .nav-tabs {
   border-bottom: 0;
 }
