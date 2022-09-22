@@ -532,6 +532,20 @@ strong {
 
 
 /*---------------------------------------
+  Team Profiles
+-----------------------------------------*/
+
+.TeamMembers {
+  background: var(--section-bg-color);
+  padding: 40px 64px;
+  margin-top: 30px;
+}
+
+.IdealJob {
+  padding-top: 40px;
+}
+
+/*---------------------------------------
   SPEAKERS              
 -----------------------------------------*/
 .speakers {
@@ -560,12 +574,13 @@ strong {
 .speakers-info {
   background: var(--white-color);
   box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
-  position: absolute;
+  position: relative;
   bottom: 0;
   right: 0;
   left: 0;
   margin: 20px;
   padding: 10px 15px;
+  width: 25em;
 }
 
 .speakers-info::before {
@@ -585,7 +600,7 @@ strong {
 }
 
 .speakers-text-info {
-  padding: 100px;
+  padding: 20px;
 }
 
 .speakers-title,
@@ -935,6 +950,7 @@ strong {
 @media screen and (max-width: 1500px) {
    .speakers-text-info {
     padding: 50px;
+    padding-bottom: 0px;
   }
 }
 
